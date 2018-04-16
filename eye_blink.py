@@ -122,7 +122,7 @@ while True:
 		blinks=blinks+1
 
 	cv2.imshow("Live Landmarks",image_landmarks)
-	cv2.imshow("Yawn Detection",frame)
+	cv2.imshow("Blink Detection",frame)
 
 	# 13 is the Enter key
 	if cv2.waitKey(1) == 13:
